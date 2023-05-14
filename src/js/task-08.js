@@ -11,6 +11,6 @@ loginForm.addEventListener('submit', (event) => {
     const formObject = Object.fromEntries(formData.entries());
     console.log(formObject);
 
-    loginForm.reset();
+    event.target.reset();
   }
 });
